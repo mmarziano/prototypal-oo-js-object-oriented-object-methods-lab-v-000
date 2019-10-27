@@ -3,12 +3,12 @@ class BoardMember {
     this.name = name;
     this.homeState = homeState;
     this.training = training;
-  }
-  
-  veto = function() {
+    }
+}
+ 
+  BoardMember.prototype.veto = function() {
     return "No, I must disagree";
   }
   
   
   
-}
